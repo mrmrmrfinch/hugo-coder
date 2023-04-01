@@ -1,6 +1,6 @@
 @mixin navigation_dark {
   .navigation {
-
+    font-family: 'my-handwriting';
     a,
     span {
       color: $fg-color-dark;

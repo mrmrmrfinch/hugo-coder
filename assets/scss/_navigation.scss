@@ -21,7 +21,8 @@
 
   .navigation-title {
     letter-spacing: 0.1rem;
-    text-transform: uppercase;
+    // text-transform: uppercase;
+    font-family: 'my-handwriting';
   }
 
   .navigation-list {
@@ -29,7 +30,6 @@
     list-style: none;
     margin-bottom: 0;
     margin-top: 0;
-
     @media only screen and (max-width: 768px) {
       position: relative;
       top: 2rem;
@@ -47,10 +47,10 @@
     }
 
     .navigation-item {
+      font-family: 'my-handwriting';
       float: left;
       margin: 0;
       position: relative;
-
       @media only screen and (max-width: 768px) {
         float: none !important;
         text-align: center;

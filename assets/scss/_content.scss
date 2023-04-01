@@ -12,6 +12,7 @@
       font-size: 4.2rem;
       line-height: 4.6rem;
       margin: 0;
+      font-family: 'my-handwriting';
 
       @media only screen and (max-width: 768px) {
         font-size: 4rem;
@@ -53,6 +54,7 @@
   .post {
     .post-title {
       margin-bottom: 0.75em;
+      font-family: 'my-handwriting';
     }
 
     .post-meta {
